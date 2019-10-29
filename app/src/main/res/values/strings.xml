@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CumpleRic</string>
+    <string-array name="pantallas">
+        <item>Inicio</item>
+        <item>Añadir Cumpleaños</item>
+    </string-array>
+    <string name="abrir_menu">Abrir menú</string>
+    <string name="cerrar_menu">Cerrar menú</string>
+    <string name="Addcumple">Añade un Cumpleaños</string>
+    <string name="nombre">Nombre</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="fecha">Fecha</string>
+    <string name="a_adir">Añadir</string>
+    <string name="cumple_de">Cumple de</string>
+    <string name="el_dia">el dia ...</string>
+
+</resources>
