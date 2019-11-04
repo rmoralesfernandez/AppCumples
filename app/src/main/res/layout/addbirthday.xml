@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Addcumple"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/Margin20"
+        android:id="@+id/tonto"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="@dimen/marginfotos"
+        android:layout_height="@dimen/marginfotos"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/img"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="@dimen/Margin20"/>
+
+
+            <ImageButton
+                android:layout_width="@dimen/marginfotos"
+                android:layout_height="@dimen/marginfotos"
+                android:src="@drawable/ic_launcher_background"
+                android:id="@+id/img1"
+                android:layout_marginLeft="@dimen/marginleft" />
+
+            <ImageButton
+                android:layout_width="@dimen/marginfotos"
+                android:layout_height="@dimen/marginfotos"
+                android:src="@drawable/ic_launcher_background"
+                android:id="@+id/img2"
+                android:layout_marginLeft="@dimen/marginleft"/>
+
+            <ImageButton
+                android:layout_width="@dimen/marginfotos"
+                android:layout_height="@dimen/marginfotos"
+                android:src="@drawable/ic_launcher_background"
+                android:id="@+id/img3"
+                android:layout_marginLeft="@dimen/marginleft" />
+
+            <ImageButton
+                android:layout_width="@dimen/marginfotos"
+                android:layout_height="@dimen/marginfotos"
+                android:src="@drawable/ic_launcher_background"
+                android:id="@+id/img4"
+                android:layout_marginLeft="@dimen/marginleft"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginLeft="150dp"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:id="@+id/name"
+        android:layout_marginLeft="@dimen/marginfotos"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cerrar"
+            android:layout_marginTop="@dimen/Margin20"
+            android:layout_marginLeft="@dimen/margin" />
+
+
+        <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:layout_marginTop="@dimen/Margin20"
+        android:layout_marginLeft="40dp" />
+
+            <Button
+                android:id="@+id/boton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_adir"
+                android:layout_marginTop="@dimen/Margin20"
+                android:layout_marginLeft="40dp" />
+        </LinearLayout>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fechaDP"
+        android:layout_marginLeft="@dimen/Margin20"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
